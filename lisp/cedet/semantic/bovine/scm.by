@@ -88,7 +88,7 @@ opt-doc : string
 	;
 
 sequence : expression sequence
-         | expression
+         | ;; EMPTY
          ;
 
 expression : symbol
